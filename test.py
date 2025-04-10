@@ -4,7 +4,7 @@ import os
 from PIL import Image
 from torch.utils.data import Dataset
 from torchvision import transforms
-from HiFiMSFA import Encoder, Decoder
+from HiFiCAFM import Encoder, Decoder
 
 class DataSet(Dataset):
     def __init__(self, image_folder):
